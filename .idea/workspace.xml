@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e4d692-a76d-4e46-b367-134b2e43d55c" name="Changes" comment="Added Coach interface">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/TrackCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/apps/HelloSpiringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    <list default="true" id="b8e4d692-a76d-4e46-b367-134b2e43d55c" name="Changes" comment="Added Spring container with .xml config file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/FootballCoach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/apps/MyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659187940930</updated>
       <workItem from="1659187942432" duration="2462000" />
-      <workItem from="1659190504899" duration="3784000" />
+      <workItem from="1659190504899" duration="4816000" />
     </task>
     <task id="LOCAL-00001" summary="Added Coach interface">
       <created>1659191380229</created>
@@ -114,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659191380229</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Spring container with .xml config file">
+      <created>1659194593102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659194593102</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Coach interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Coach interface" />
+    <MESSAGE value="Added Spring container with .xml config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Spring container with .xml config file" />
   </component>
 </project>
