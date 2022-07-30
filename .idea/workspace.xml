@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e4d692-a76d-4e46-b367-134b2e43d55c" name="Changes" comment="Added Spring container with .xml config file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/FootballCoach.java" afterDir="false" />
+    <list default="true" id="b8e4d692-a76d-4e46-b367-134b2e43d55c" name="Changes" comment="Changed configuration. Added FootballCoach.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/services/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/services/HappyFortuneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/BaseballCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/BaseballCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Coach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659187940930</updated>
       <workItem from="1659187942432" duration="2462000" />
-      <workItem from="1659190504899" duration="4816000" />
+      <workItem from="1659190504899" duration="5577000" />
     </task>
     <task id="LOCAL-00001" summary="Added Coach interface">
       <created>1659191380229</created>
@@ -118,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659194593102</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed configuration. Added FootballCoach.">
+      <created>1659196193634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659196193634</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Coach interface" />
     <MESSAGE value="Added Spring container with .xml config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Spring container with .xml config file" />
+    <MESSAGE value="Changed configuration. Added FootballCoach." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed configuration. Added FootballCoach." />
   </component>
 </project>
