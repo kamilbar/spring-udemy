@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e4d692-a76d-4e46-b367-134b2e43d55c" name="Changes" comment="Changed configuration. Added FootballCoach.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/services/FortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/services/HappyFortuneService.java" afterDir="false" />
+    <list default="true" id="b8e4d692-a76d-4e46-b367-134b2e43d55c" name="Changes" comment="Added Setter Injection, new CricketCoach class and RandomFortuneService,  and files: sport.properties, randomFortunes.txt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/apps/SetterInjectionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/services/RandomFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/randomFortunes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sport.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/BaseballCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/BaseballCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/Coach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,7 @@
       <recent name="com.luv2code.springdemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloSpringApp">
+  <component name="RunManager" selected="Application.SetterInjectionApp">
     <configuration name="HelloSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.apps.HelloSpringApp" />
       <module name="udemy-tutorial" />
@@ -89,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetterInjectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.apps.SetterInjectionApp" />
+      <module name="udemy-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springdemo.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetterInjectionApp" />
         <item itemvalue="Application.HelloSpringApp" />
         <item itemvalue="Application.MyApp" />
       </list>
@@ -105,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659187940930</updated>
       <workItem from="1659187942432" duration="2462000" />
-      <workItem from="1659190504899" duration="5577000" />
+      <workItem from="1659190504899" duration="14335000" />
     </task>
     <task id="LOCAL-00001" summary="Added Coach interface">
       <created>1659191380229</created>
@@ -128,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659196193634</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed configuration. Added FortuneService.">
+      <created>1659197221268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659197221268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +171,8 @@
     <MESSAGE value="Added Coach interface" />
     <MESSAGE value="Added Spring container with .xml config file" />
     <MESSAGE value="Changed configuration. Added FootballCoach." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed configuration. Added FootballCoach." />
+    <MESSAGE value="Changed configuration. Added FortuneService." />
+    <MESSAGE value="Added Setter Injection, new CricketCoach class and RandomFortuneService,  and files: sport.properties, randomFortunes.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Setter Injection, new CricketCoach class and RandomFortuneService,  and files: sport.properties, randomFortunes.txt" />
   </component>
 </project>

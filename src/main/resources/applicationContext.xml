@@ -5,11 +5,24 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <context:property-placeholder location="classpath:sport.properties"/>
+
     <bean id="myFortune"
             class="com.luv2code.springdemo.services.HappyFortuneService">
     </bean>
     <bean id="myCoach"
             class="com.luv2code.springdemo.BaseballCoach">
         <constructor-arg ref="myFortune"/>
+    </bean>
+
+    <bean id="myRandomFortune"
+          class="com.luv2code.springdemo.services.RandomFortuneService">
+    </bean>
+
+    <bean id="mySetterCoach"
+            class="com.luv2code.springdemo.CricketCoach">
+        <property name="fortuneService" ref="myRandomFortune" />
+        <property name="emailAddress" value="some@email.com" />
+        <property name="team" value="${foo.team}" />
     </bean>
 </beans>
